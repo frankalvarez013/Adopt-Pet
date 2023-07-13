@@ -1,5 +1,4 @@
 import Pet from "./Pet";
-import PropTypes from 'prop-types';
 
 const Results = ({ pets }) => {
   return (
@@ -24,9 +23,5 @@ const Results = ({ pets }) => {
     </div>
   );
 };
-
-Results.PropTypes = {
-  pets: PropTypes.arrayOf(PropTypes.object)
-}
 
 export default Results;
